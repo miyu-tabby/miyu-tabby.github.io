@@ -23,7 +23,49 @@
   
   
   
-  
+  <style>
+    /* Add the CSS code provided above */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .skills-section {
+      background-color: #f9f9f9;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .skills-section .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+    .skills-section .skill {
+      margin-bottom: 20px;
+    }
+    .skills-section .skill label {
+      display: block;
+      font-size: 1.25rem;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+    .skills-section .progress-bar {
+      background-color: #e0e0e0;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 25px;
+      width: 100%;
+    }
+    .skills-section .progress {
+      background-color: #007bff;
+      color: #fff;
+      height: 100%;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 25px;
+      border-radius: 25px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style> 
 
 <style>
 .navbar-fixed-top {
@@ -150,7 +192,7 @@
 						<div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-black display-4" href="https://mobiri.se">Memories</a>
 					</li>
 					<li class="nav-item">
-						<div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-black display-4" href="https://mobiri.se" aria-expanded="false">Gallery</a>
+						<div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-black display-4" href="#gallery-16-umUNdfGa1D" aria-expanded="false">Gallery</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link link text-black display-4" href="https://mobiri.se">Tributes</a>
@@ -306,6 +348,41 @@
         <div class="row"></div>
     </div>
 </section>
+
+
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skill">
+        <label for="html-skill">HTML</label>
+        <div class="progress-bar">
+          <div id="html-skill" class="progress" style="width: 90%;">90%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <label for="css-skill">CSS</label>
+        <div class="progress-bar">
+          <div id="css-skill" class="progress" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <label for="js-skill">JavaScript</label>
+        <div class="progress-bar">
+          <div id="js-skill" class="progress" style="width: 70%;">70%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <label for="react-skill">React</label>
+        <div class="progress-bar">
+          <div id="react-skill" class="progress" style="width: 75%;">75%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 <section data-bs-version="5.1" class="article07 cid-umUNdfGdNi" id="about-me-7-umUNdfGdNi">
   
